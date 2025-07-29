@@ -14,6 +14,8 @@
 
 ## ✨  Overview
 
+https://github.com/user-attachments/assets/4ff718b1-4ce6-42e2-853f-1ce036f785e1
+
 ## 🚀 This repository is a Multi-agent orchestration framework using [bigtree](https://bigtree.readthedocs.io/stable/gettingstarted/demo/tree/).
 
 #### 📚 Here is a very simplified example which implements a hierarchical AI agent structure using bigtree for managing agentnodes. It utilizes Google's Generative AI (genai) models to power the conversational agents.The core functionality revolves around a "manager agent" that triages user requests and hands them over to specialized "service agents" (e.g., booking, rescheduling)
