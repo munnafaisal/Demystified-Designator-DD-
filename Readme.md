@@ -12,7 +12,7 @@
 
 ## 👨 [Visit My Portfolio](https://munnafaisal.github.io/PORTFOLIO-OF-FAISAL-AHMED-SIDDIQI/)
 
-## ✨  Overview
+## ✨  DEMO
 
 https://github.com/user-attachments/assets/4ff718b1-4ce6-42e2-853f-1ce036f785e1
 
@@ -22,7 +22,6 @@ https://github.com/user-attachments/assets/4ff718b1-4ce6-42e2-853f-1ce036f785e1
 
 #  <div style="text-align: center;"> <img src="docs/Agent_DD_Eark.png" alt="Description of your image" width="800" height="700"> </div>
 
-# <video src="videos/Screencast from 2025-07-29 15-08-33.mp4" width="620" height="440" controls></video>
 
 ## ⚡️ Quickstart
 
@@ -34,7 +33,7 @@ https://github.com/user-attachments/assets/4ff718b1-4ce6-42e2-853f-1ce036f785e1
 
 ### Create multiple agents from scratch and the agents are going to managed by a **Manager Agent**  
 
-#### Overview
+## Overview
 **Structure** : Hierarchical
 ```
 Two types of Agent:
@@ -43,7 +42,15 @@ Two types of Agent:
     2.SERVICE AGENT(e.g., booking, rescheduling)
 ```
 
-#### How to create node [Visit the **bigtree** Documentation for details](https://bigtree.readthedocs.io/stable/gettingstarted/demo/tree/)
+### How to create node ....!! [Visit the **bigtree** Documentation for details](https://bigtree.readthedocs.io/stable/gettingstarted/demo/tree/)
+#### From the Documentation you are recommended to learn 
+- making different types of tree.
+- parent-child relationship
+- Shibling relationship
+- How to find Node by name
+- Store data in the Node object
+
+**Simplified Examples**
 ```
 from bigtree import Node, print_tree, hprint_tree, vprint_tree
 
