@@ -3,9 +3,9 @@
 #  <div style="text-align: left;"> <img src="docs/Cropped_Profile_img-removebg-preview .png" alt="Description of your image" width="35" height="35"> DD (Demystified Designator) </div> 
 
 ### CREATE, DEMYSTIFY AND DESIGNATE AGENTS AT YOUR WILL
+#### An Initiative for better INTUTION and INTERPRETATION
 
 #  <div style="text-align: left;"> <img src="docs/Pasted image.png" alt="Description of your image" width="300" height="300"> </div>
-
 
 
 [![Follow me](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/faisal-ahmed-siddiqi/)
@@ -18,10 +18,9 @@ https://github.com/user-attachments/assets/4ff718b1-4ce6-42e2-853f-1ce036f785e1
 
 ## 🚀 This repository is a Multi-agent orchestration framework using [bigtree](https://bigtree.readthedocs.io/stable/gettingstarted/demo/tree/).
 
-#### 📚 Here is a very simplified example which implements a hierarchical AI agent structure using bigtree for managing agentnodes. It utilizes Google's Generative AI (genai) models to power the conversational agents.The core functionality revolves around a "manager agent" that triages user requests and hands them over to specialized "service agents" (e.g., booking, rescheduling)
+#### 📚 Here is a VERY SIMPLIFIED example which implements a hierarchical AI agent structure using bigtree for managing agentnodes. It utilizes Google's Generative AI (genai) models to power the conversational agents.The core functionality revolves around a "manager agent" that triages user requests and hands them over to specialized "service agents" (e.g., booking, rescheduling)
 
 #  <div style="text-align: center;"> <img src="docs/Agent_DD_Eark.png" alt="Description of your image" width="800" height="700"> </div>
-
 
 ## ⚡️ Quickstart
 
@@ -30,6 +29,11 @@ https://github.com/user-attachments/assets/4ff718b1-4ce6-42e2-853f-1ce036f785e1
 - Create a conda env using the ``` environment.yml``` file
 
 ```   conda env create -f environment.yml ```
+- Visit Google AI studio and create a free API and export your API(Linux system) in a terminal as following
+
+```export GOOGLE_API_KEY = <YOUR API_KEY> ```
+
+- You are recommended to run every command in the same terminal (To have the access of the env variables) to keep the session alive 
 
 ### Create multiple agents from scratch and the agents are going to managed by a **Manager Agent**  
 
@@ -109,7 +113,6 @@ The script begins by importing necessary libraries:
 ```
 **2. Google Generative AI Client Initialization**
 ``` 
- load_dotenv()
  client = genai.Client()
 ```
 

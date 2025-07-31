@@ -1,4 +1,5 @@
 import gradio as gr
+import datetime
 from bigtree import Node, find_name
 from dotenv import load_dotenv
 from google import genai
@@ -9,10 +10,12 @@ from AGENT_FUNCTIONS.booking_agent_function import get_func_response
 from AGENT_FUNCTIONS.reschedule_agent_function import get_reschedule_func_response
 from HAND_OVER_LOGICS.agent_logic import manager_agent_logic, booking_agent_logic, reschedule_agent_logic
 
-load_dotenv()
+# load_dotenv()
 
 # Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+log_filename = datetime.datetime.now().strftime('App_Log/my_app_%Y%m%d_%H%M%S.log')
+logging.basicConfig(filename=log_filename, level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
 logging.info("Starting gradio_UI.py script") # Log script start
 
 client = genai.Client()
