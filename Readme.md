@@ -2,7 +2,8 @@
 
 #  <div style="text-align: left;"> <img src="docs/Cropped_Profile_img-removebg-preview .png" alt="Description of your image" width="35" height="35"> DD (Demystified Designator) </div> 
 
-### CREATE, DEMYSTIFY AND DESIGNATE AGENTS AT YOUR WILL
+### A MULTI-AGENT ORCHESTRATION FRAMEWORK 
+#### CREATE, DEMYSTIFY AND DESIGNATE AGENTS AT YOUR WILL
 #### An Initiative for better INTUTION and INTERPRETATION
 
 #  <div style="text-align: left;"> <img src="docs/Pasted image.png" alt="Description of your image" width="300" height="300"> </div>
